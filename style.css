@@ -1,0 +1,84 @@
+body {
+    font-family: "Poppins",sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.navbar-toggler-icon{
+    background-color: #9F78FF;
+}
+
+div.blog-dropdown-menu {
+    border: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-indicators li {
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+}
+
+.the-nav-social-icons > a:not(:nth-child(4)) , 
+.the-nav-social-icons > a:nth-child(4){
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+}
+
+.the-nav-social-icons > a:nth-child(4) {
+    background: #f6f8fe;
+    border: none;
+}
+
+.the-nav-social-icons > div {
+    background: #9F78FF;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.btn {
+    background: #9F78FF;
+    border:none;
+}
+
+.btn:hover {
+    background: #8860ee;
+}
+
+.content-margin {
+    margin-bottom: 100px;
+}
+
+h1, h2{
+    font-size: 100px;
+    word-spacing: 50px;
+    padding: 50px;  
+}
+
+h2, h3 {
+    font: 600 70px/1.2 "Cinzel",serif;
+    color: #140C40;  
+    padding: 40px; 
+} 
+
+h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.position-absolute {
+    bottom: 40%;
+    right: 180px;
+}
+    
