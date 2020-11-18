@@ -6,8 +6,8 @@ nav {
     background-color: #fff;
 }
 
-.navbar-toggler-icon{
-    background-color: #9F78FF;
+.navbar-toggler{
+    border: none;
 }
 
 div.blog-dropdown-menu {
@@ -81,4 +81,30 @@ h3 {
     bottom: 40%;
     right: 180px;
 }
-    
+
+.card-img-overlay h5 {
+    font-size: 2rem;
+}
+
+footer{
+    background: #1D2547;
+}
+
+footer .card {
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+footer a, footer p {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer h4{
+    font-size: 1.2rem;
+}
+
+footer .container-fluid {
+    padding-top: 80px;
+}
