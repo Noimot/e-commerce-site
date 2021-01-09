@@ -5,7 +5,6 @@ body {
 nav {
     background-color: #fff;
 }
-
 .navbar-toggler{
     border: none;
 }
@@ -25,7 +24,9 @@ div.blog-dropdown-menu {
 }
 
 .the-nav-social-icons > a:not(:nth-child(4)) , 
-.the-nav-social-icons > a:nth-child(4){
+.the-nav-social-icons > a:nth-child(4),
+.footer-social-icons > a ,
+.level-up-icon a{
     border: 1px solid grey;
     height: 40px;
     width: 40px;
@@ -56,8 +57,8 @@ div.blog-dropdown-menu {
     background: #8860ee;
 }
 
-.content-margin {
-    margin-bottom: 100px;
+.h1-font-style {
+    font: 700 85px/1.2 "Cinzel",serif;
 }
 
 h1, h2{
@@ -77,13 +78,43 @@ h3 {
     font-weight: normal;
 }
 
+.about-us-img{
+    background-image: url("https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/section_bg01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(29,37,71,.4);
+    background-position: center;
+    padding: 200px 40px;
+   
+}
+
 .position-absolute {
     bottom: 40%;
     right: 180px;
 }
 
+.carousel-div {
+    position: absolute; 
+    top: 1em;
+    left: 22em;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.bag-icon {
+   position: absolute;
+   left: 13.5em;
+   top: 1.5em;
+}
 .card-img-overlay h5 {
     font-size: 2rem;
+}
+
+.btn-outline {
+    border: 1px solid #b79aff;
+    background: transparent !important;
+    color: #b79aff;
 }
 
 footer{
@@ -108,3 +139,109 @@ footer h4{
 footer .container-fluid {
     padding-top: 80px;
 }
+
+.footer-social-icons > a {
+    border-color: #fff;
+}
+
+footer .copyright p {
+    color: #c2c5db;
+    font-size:14px;
+    line-height: 2px;
+    margin: 3rem 0;
+}
+
+.level-up-icon a {
+    background-color: #9f78ff;
+}
+
+
+@media (max-width:1200px){
+    .carousel-div {
+        left : 16em;
+    }
+
+    .h1-font-style {
+        font-size: 60px;
+    }
+}
+@media (max-width:1000px){
+    .h1-font-style {
+        font-size: 50px;
+        line-height: 0.9;
+    }
+    .carousel-div {
+        left : 14em;
+        }
+            
+    }
+
+@media (max-width: 900px){
+    .about-us-img h3 {
+        font-size: 55px;
+    }
+}
+  
+@media (max-width:800px){
+    .h1-font-style {
+        font-size: 38px;
+        line-height: 0.9;
+    }
+    .carousel-div {
+        left : 10em;
+    }
+    .carousel-button {
+        padding: 8px 8px !important;
+    }
+
+    .about-us-img {
+        padding: 90px 0;
+    }
+    
+    .about-us-img h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:700px){
+    .h1-font-style {
+        font-size: 30px;
+       
+    }
+    .carousel-div {
+        left : 7em;
+        top: -1em;
+    }
+    
+}
+
+@media (max-width:500px){
+    .h1-font-style {
+        font-size: 25px;
+       
+    }
+    .carousel-div {
+        left : 5em;
+        top: -2em;
+    }
+
+    div.card-body h2 {
+        font-size: 60px;
+    }
+    
+    .bag-icon {
+    left: 20em;
+    top: 1.6em;
+    }
+
+    .about-us-img {
+        padding: 20px 0;
+    }
+
+    .about-us-img h3 {
+        font-size: 30px;
+    }
+    
+}
+
+
